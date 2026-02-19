@@ -3,26 +3,10 @@
 import { motion } from "framer-motion";
 import { Sparkles, ArrowRight } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export function Hero() {
     return (
         <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden bg-transparent">
-            {/* Asees Kaur Hero Background Image */}
-            <div className="absolute inset-0 flex items-end justify-center pointer-events-none z-[1]">
-                <div className="relative w-[60vw] sm:w-[45vw] md:w-[35vw] lg:w-[28vw] h-[75vh] sm:h-[80vh]">
-                    <Image
-                        src="/stars/hero-performer.png"
-                        alt="Asees Kaur"
-                        fill
-                        className="object-contain object-bottom opacity-30 md:opacity-35"
-                        sizes="35vw"
-                        quality={80}
-                        priority
-                    />
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120%] h-[40%] bg-gradient-radial from-primary/15 to-transparent rounded-full blur-[80px]" />
-                </div>
-            </div>
             <div className="relative z-10 max-w-7xl mx-auto w-full flex flex-col items-center justify-center space-y-12">
                 {/* Background Text Layer - Simple Fade */}
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">

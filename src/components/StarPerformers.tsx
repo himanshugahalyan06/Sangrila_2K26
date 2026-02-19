@@ -68,23 +68,43 @@ export function StarPerformers() {
                         </div>
                     </motion.div>
 
-                    {/* Right column — single performer */}
-                    <div className="w-full md:w-[50%]">
+                    {/* Right column — two stacked performers */}
+                    <div className="w-full md:w-[50%] flex flex-row md:flex-col gap-4 md:gap-6">
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.1 }}
-                            className="relative group"
+                            className="relative flex-1 group"
                         >
-                            <div className="relative h-[350px] sm:h-[420px] md:h-[500px] overflow-hidden rounded-2xl bg-gradient-to-b from-purple-500/5 to-transparent">
+                            <div className="relative h-[180px] sm:h-[200px] md:h-[238px] overflow-hidden rounded-2xl bg-gradient-to-b from-purple-500/5 to-transparent">
                                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[60%] bg-purple-500/8 rounded-full blur-[40px] pointer-events-none" />
                                 <Image
                                     src="/stars/star-2.png"
                                     alt="Star Performer"
                                     fill
+                                    className="object-contain object-bottom scale-125 group-hover:scale-[1.3] transition-transform duration-700"
+                                    sizes="(max-width: 768px) 50vw, 25vw"
+                                    quality={85}
+                                />
+                            </div>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.7, delay: 0.2 }}
+                            className="relative flex-1 group"
+                        >
+                            <div className="relative h-[180px] sm:h-[200px] md:h-[238px] overflow-hidden rounded-2xl bg-gradient-to-b from-orange-500/5 to-transparent">
+                                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[60%] bg-orange-500/6 rounded-full blur-[40px] pointer-events-none" />
+                                <Image
+                                    src="/stars/star-3.png"
+                                    alt="Star Performer"
+                                    fill
                                     className="object-contain object-bottom scale-110 group-hover:scale-[1.15] transition-transform duration-700"
-                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                    sizes="(max-width: 768px) 50vw, 25vw"
                                     quality={85}
                                 />
                             </div>
