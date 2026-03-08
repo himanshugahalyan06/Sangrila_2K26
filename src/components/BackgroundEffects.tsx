@@ -18,6 +18,7 @@ export const BackgroundEffects = memo(function BackgroundEffects() {
                     className="object-cover object-bottom opacity-60 mix-blend-lighten scale-105"
                     priority
                     sizes="100vw"
+                    unoptimized
                     quality={75}
                 />
                 {/* Dynamic Lighting Color Overlays */}

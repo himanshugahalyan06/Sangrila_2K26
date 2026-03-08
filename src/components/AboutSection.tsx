@@ -28,6 +28,7 @@ export function AboutSection() {
                                     className="object-cover"
                                     sizes="(max-width: 768px) 100vw, 50vw"
                                     quality={75}
+                                    unoptimized
                                     priority
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0b14] via-transparent to-transparent" />
@@ -123,6 +124,7 @@ export function AboutSection() {
                                         alt="Sangrila 2K26"
                                         width={250}
                                         height={250}
+                                        unoptimized
                                         className="object-contain drop-shadow-[0_0_40px_rgba(241,90,36,0.3)]"
                                     />
                                 </motion.div>

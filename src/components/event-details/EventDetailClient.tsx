@@ -61,9 +61,9 @@ export default function EventDetailClient({ id }: { id: string }) {
                                 <Image
                                     src={event.image}
                                     alt={event.name}
-                                    fill
                                     className="object-cover transition-transform duration-1000 group-hover:scale-105"
                                     priority
+                                    unoptimized
                                     quality={75}
                                 />
                             ) : (

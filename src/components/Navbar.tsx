@@ -49,6 +49,7 @@ export function Navbar() {
                             height={180}
                             className="h-14 md:h-16 lg:h-20 w-auto object-contain hover:scale-105 transition-transform duration-300"
                             priority
+                            unoptimized
                             quality={75}
                         />
                     </Link>

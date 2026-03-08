@@ -66,6 +66,7 @@ export function FoodStallsSection() {
                                     alt={partner.name}
                                     width={250}
                                     height={120}
+                                    unoptimized
                                     className="object-contain max-h-full"
                                 />
                             </div>

@@ -618,6 +618,7 @@ function RegistrationFormContent() {
                                                                 src={screenshotPreview}
                                                                 alt="Payment Screenshot"
                                                                 fill
+                                                                unoptimized
                                                                 className="object-cover"
                                                             />
                                                             <div className="absolute inset-0 bg-black/60 opacity-0 group-hover/preview:opacity-100 transition-opacity flex items-center justify-center">

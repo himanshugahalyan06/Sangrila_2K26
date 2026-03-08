@@ -79,6 +79,7 @@ export function TeamSection() {
                                     }}
                                     sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                                     priority={member.id === "1" || member.id === "2"}
+                                    unoptimized
                                     quality={80}
                                 />
 

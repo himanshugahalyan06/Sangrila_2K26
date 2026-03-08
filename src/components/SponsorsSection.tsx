@@ -94,6 +94,7 @@ export function SponsorsSection() {
                                     alt="Geeta Sarovar Portico - Hospitality Partner"
                                     width={350}
                                     height={180}
+                                    unoptimized
                                     className="object-contain relative z-10 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
                                 />
                             </div>
@@ -147,6 +148,7 @@ export function SponsorsSection() {
                                     alt="Ahuja's Sweets - Silver Sponsor"
                                     width={220}
                                     height={220}
+                                    unoptimized
                                     className="object-contain rounded-2xl relative z-10 drop-shadow-[0_0_20px_rgba(192,192,192,0.2)]"
                                 />
                             </div>
@@ -201,6 +203,7 @@ export function SponsorsSection() {
                                         alt={`${sponsor.name} - Bronze Sponsor`}
                                         width={160}
                                         height={160}
+                                        unoptimized
                                         className="object-contain rounded-xl relative z-10 drop-shadow-[0_0_15px_rgba(205,127,50,0.15)]"
                                     />
                                 </div>
